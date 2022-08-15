@@ -4,17 +4,17 @@
     margin: 0;
 }
 
-/* body {
+body {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-} */
+}
 
-h1 {
+/* h1 {
     text-align: center;
     margin: 30px 0;
-}
+} */
 
 #calculator {
     width: 280px;
@@ -94,7 +94,7 @@ div#screen div#bottom {
     color: #EF2020;
 }
 
-a.number {
+a.number, div.n5 > a.number + a {
     background: #565656;
     color: #FFFFFF;
 }
